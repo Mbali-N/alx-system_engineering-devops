@@ -1,2 +1,2 @@
 #!/bin/bash
-tree -a 0x02-shell_redirections | tail -1
+find /path/to/root_dir -maxdepth 2 -mindepth 2 -type d | wc -l
